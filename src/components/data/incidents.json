@@ -1,0 +1,18 @@
+{
+    "incidents": [
+        {
+            "id": "1",
+            "date": "2015-03-25T12:00:00Z",
+            "type": "Crime",
+            "country": "Venezuela",
+            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
+        },
+        {
+            "id": "2",
+            "date": "2018-03-25T12:00:00Z",
+            "type": "Unrest",
+            "country": "Argentina",
+            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
+        }
+    ]
+}

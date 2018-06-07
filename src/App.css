@@ -1,0 +1,9 @@
+.App { 
+    min-height: 100%;
+    height: 100%;
+}
+
+#incident-container {
+    min-height: inherit;
+    height: inherit;
+}
