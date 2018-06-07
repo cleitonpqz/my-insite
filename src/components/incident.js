@@ -4,16 +4,18 @@ import moment from 'moment';
 class Incident extends Component {
     render() {
         return(
-            <a href="" style={{textDecoration: 'none', color: 'inherit'}}>
-                <div className="card">
+            <div className="card rounded-0">
+                <a href="" style={{textDecoration: 'none', color: 'inherit'}}>
                     <div className="card-body">
-                        <div className="float-right text-muted font-italic">{moment(this.props.date).format('ll')}</div>
-                        <h6 className="card-title">{this.props.type}</h6>
-                        <h5 className="card-title">{this.props.country}</h5>
+                        <div className="float-right text-muted font-italic">
+                            {moment(this.props.date).format('ll')}
+                        </div>
+                        <h7 className="card-title">{this.props.type}</h7>
+                        <h6 className="card-title">{this.props.country}</h6>
                         <p className="card-text">{this.props.summary}</p>
                     </div>
-                </div>
-            </a>
+                </a>
+            </div>
         );
     }
 }

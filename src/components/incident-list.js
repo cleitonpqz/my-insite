@@ -8,7 +8,7 @@ class IncidentList extends Component {
         });
 
         return(
-            <div className="col">
+            <div className="col-5 bg-white" id="incident-list" >
                 {list}
             </div>
         );
