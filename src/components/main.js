@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Item from './item'
+import Incident from './incident'
 
 class Main extends Component {
     render() {
         return(
             <main className="container-fluid">
-                <Item />
+                <Incident />
             </main>
         );
     }
