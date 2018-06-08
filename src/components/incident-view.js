@@ -17,6 +17,17 @@ class IncidentView extends Component {
     render() {
         return(
             <div className="col" id="incident-view" >
+                <div className="row text-white pl-3 pt-1">
+                    <div className="form-group mb-0">
+                        <span>Region</span>
+                        <select className="form-control form-control-lg bg-secondary border-0 text-white p-0" id="exampleFormControlSelect1">
+                            <option>Americas    </option>
+                            <option>Asia</option>
+                            <option>Europe</option>
+                            <option>Africa</option>
+                        </select>
+                    </div>
+                </div>
                 <div className="row">
                     <div className="col bg-white py-3">
                         <button className="btn btn-primary btn-sm float-right" type="submit" onClick={this.handleClick} >
@@ -25,7 +36,9 @@ class IncidentView extends Component {
                         </button>
 
                         <div className="row mb-5 ml-1">
-                            <div className="col-9 border-bottom">Incident #99999 (Manual)</div>
+                            <div className="col-9 border-bottom">
+                                <h6 className="float-right">Incident #99999 (Manual)</h6>
+                            </div>
                         </div>
 
                         <div className="row">
@@ -99,7 +112,18 @@ class IncidentView extends Component {
                         </div>
                     </div>
 
-                    <div className="col-4">Test</div>
+                    <div className="col-4">
+                        <div className="row" >
+                            <div className="card text-center text-white bg-secondary border-0 mt-3 w-100" >
+                                <div className="card-text"><i className="fas fa-bullseye fa-5x"></i></div>
+                                <div className="card-body">
+                                    <p className="card-text">No Properties in Proximity</p>
+                                    <h3 className="card-text">Saint Lucia</h3>
+                                </div>
+                                <img className="card-img-bottom" src="https://maps.googleapis.com/maps/api/staticmap?center=40.714728,-73.998672&zoom=12&size=400x400&maptype=roadmap&key=AIzaSyBHqOsq3OIQoxKexk9zZsAxOG-gzuo5QGk" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         );

@@ -10,7 +10,7 @@ class Incident extends Component {
                         <div className="float-right text-muted font-italic">
                             {moment(this.props.date).format('ll')}
                         </div>
-                        <h7 className="card-title">{this.props.type}</h7>
+                        <p className="card-title">{this.props.type}</p>
                         <h6 className="card-title">{this.props.country}</h6>
                         <p className="card-text">{this.props.summary}</p>
                     </div>
