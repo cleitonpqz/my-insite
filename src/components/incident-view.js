@@ -38,7 +38,7 @@ class IncidentView extends Component {
                         <div className="row mb-5 ml-1">
                             <div className="col-10 border-bottom p-0" style={{borderBottomWidth: '2px'}} >
                                 <div className="row p-0">
-                                    <div className="col-1 bg-dark">
+                                    <div className="col-1 bg-dark text-center">
                                         <i className="fas fa-thermometer-empty text-white" style={{margin: -3}} ></i>
                                     </div>
                                     <div className="col-2">Low</div>
