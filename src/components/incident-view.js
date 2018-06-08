@@ -36,15 +36,23 @@ class IncidentView extends Component {
                         </button>
 
                         <div className="row mb-5 ml-1">
-                            <div className="col-9 border-bottom">
-                                <h6 className="float-right">Incident #99999 (Manual)</h6>
+                            <div className="col-10 border-bottom p-0" style={{borderBottomWidth: '2px'}} >
+                                <div className="row p-0">
+                                    <div className="col-1 bg-dark">
+                                        <i className="fas fa-thermometer-empty text-white" style={{margin: -3}} ></i>
+                                    </div>
+                                    <div className="col-2">Low</div>
+                                    <div className="col">
+                                        <h6 className="float-right">Incident #99999 (Manual)</h6>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                         <div className="row">
                             <div className="col-7 border-right">
                                 <h6>Industry, Crime</h6>
-                                <p>Badge space</p>
+                                <p><span className="badge badge-secondary">No Sub-Categories</span></p>
 
                                 <h6>Description</h6>
                                 <p>Created</p>
