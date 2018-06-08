@@ -30,7 +30,7 @@ class IncidentView extends Component {
                 </div>
                 <div className="row">
                     <div className="col bg-white py-3">
-                        <button className="btn btn-primary btn-sm float-right" type="submit" onClick={this.handleClick} >
+                        <button className="btn btn-secondary btn-sm float-right" type="submit" onClick={this.handleClick} >
                             <i className={"fas fa-check fa-fw " + (this.state.reviewed ? "visible" : "invisible")}></i>
                             <span className="ml-1">Mark as Reviewed</span>
                         </button>
@@ -38,7 +38,7 @@ class IncidentView extends Component {
                         <div className="row mb-5 ml-1">
                             <div className="col-10 border-bottom p-0" style={{borderBottomWidth: '2px'}} >
                                 <div className="row p-0">
-                                    <div className="col-1 bg-dark text-center">
+                                    <div className="col-1 bg-secondary text-center">
                                         <i className="fas fa-thermometer-empty text-white" style={{margin: -3}} ></i>
                                     </div>
                                     <div className="col-2">Low</div>
