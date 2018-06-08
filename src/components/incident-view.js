@@ -20,7 +20,7 @@ class IncidentView extends Component {
                 <div className="row text-white pl-3 pt-1" style={{height: '10%'}} >
                     <div className="form-group mb-0">
                         <span>Region</span>
-                        <select className="form-control bg-secondary border-0 text-white p-0" id="exampleFormControlSelect1">
+                        <select className="form-control bg-secondary border-secondary text-white p-0" id="exampleFormControlSelect1">
                             <option>Americas    </option>
                             <option>Asia</option>
                             <option>Europe</option>
@@ -100,6 +100,13 @@ class IncidentView extends Component {
 
                                 <small>Impact</small>
                                 <p className="font-italic">None selected.</p>
+
+                                <p className="form-check">
+                                    <input className="form-check-input" type="checkbox" value="" id="nearMiss" />
+                                    <label className="form-check-label" for="nearMiss">
+                                        Near Miss
+                                    </label>
+                                </p>
 
                                 <small>Keywords</small>
                                 <p></p>
