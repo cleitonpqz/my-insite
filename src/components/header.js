@@ -8,13 +8,13 @@ class Header extends Component {
 
         <ul className="navbar-nav flex-row ml-md-auto d-none d-md-flex text-white">
           <li className="nav-item border-right">
-            <i class="fas fa-search fa-2x mx-2"></i>
+            <a href="" className="text-white a-icon"><i className="fas fa-search fa-2x mx-2"></i></a>
           </li>
           <li className="nav-item border-right">
-            <i class="fas fa-cog fa-2x mx-2"></i>
+            <a href="" className="text-white a-icon"><i className="fas fa-cog fa-2x mx-2"></i></a>
           </li>
           <li className="nav-item">
-            <i class="fas fa-user-circle fa-2x mx-2"></i> Queiroz, Cleiton
+            <a href="" className="text-white a-icon"><i className="fas fa-user-circle fa-2x mx-2"></i> Queiroz, Cleiton</a>
           </li>
         </ul>
       </header>

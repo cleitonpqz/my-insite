@@ -10,6 +10,8 @@
 
 #incident-list {
     padding: 0rem;
+    padding-right: 1rem;
+    background-color: #4F565B!important;
 }
 
 #incident-view {
