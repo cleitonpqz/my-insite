@@ -130,6 +130,37 @@ class IncidentView extends Component {
                                 </div>
                                 <img className="card-img-bottom" src="https://maps.googleapis.com/maps/api/staticmap?center=40.714728,-73.998672&zoom=12&size=400x400&maptype=roadmap&key=AIzaSyBHqOsq3OIQoxKexk9zZsAxOG-gzuo5QGk" />
                             </div>
+
+                            <table className="table table-borderless table-sm text-white">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">ExxonMobil Properties</th>
+                                        <td className="text-right">2</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">ExxonMobil Head Count</th>
+                                        <td className="text-right"></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Threat Level</th>
+                                        <td className="text-right">Not Rated</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <div className="text-center w-100 text-white"><h6>Nearest Properties</h6></div>
+                            <table className="table table-borderless table-sm text-white">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Brooklin</th>
+                                        <td className="text-right">5.20 mi / 8.36 km</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Bronx</th>
+                                        <td className="text-right">14.90 mi / 23.97 km</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>

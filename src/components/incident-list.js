@@ -13,7 +13,7 @@ class IncidentList extends Component {
                     <nav className="navbar navbar-expand-lg navbar-light flex-column flex-md-row bd-navbar w-100">
                         <ul className="navbar-nav flex-row ml-md-auto d-none d-md-flex text-white">
                             <li className="nav-item">
-                                <span class="navbar-brand text-white">137</span>
+                                <span className="navbar-brand text-white">137</span>
                             </li>
                         </ul>
                         

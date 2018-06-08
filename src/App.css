@@ -17,6 +17,7 @@
 #incident-view {
     margin-left: 1.1rem;
     padding: 0rem;
+    padding-right: 1rem;
 }
 
 [class^="icon-"], [class*=" icon-"] {
