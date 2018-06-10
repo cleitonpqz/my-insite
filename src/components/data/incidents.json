@@ -1,49 +1,49 @@
 {
-    "incidents": [
+    "data": [
         {
-            "id": "1",
+            "id": 1,
             "date": "2015-03-25T12:00:00Z",
             "type": "Crime",
             "country": "Venezuela",
             "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
         },
         {
-            "id": "2",
+            "id": 2,
             "date": "2018-03-25T12:00:00Z",
             "type": "Unrest",
             "country": "Argentina",
             "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
         },
         {
-            "id": "3",
+            "id": 3,
             "date": "2018-03-25T12:00:00Z",
             "type": "Unrest",
             "country": "Brazil",
             "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
         },
         {
-            "id": "3",
+            "id": 4,
             "date": "2018-03-25T12:00:00Z",
             "type": "Unrest",
             "country": "Brazil",
             "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
         },
         {
-            "id": "3",
+            "id": 5,
             "date": "2018-03-25T12:00:00Z",
             "type": "Unrest",
             "country": "Brazil",
             "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
         },
         {
-            "id": "3",
+            "id": 6,
             "date": "2018-03-25T12:00:00Z",
             "type": "Unrest",
             "country": "Brazil",
             "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
         },
         {
-            "id": "3",
+            "id": 7,
             "date": "2018-03-25T12:00:00Z",
             "type": "Unrest",
             "country": "Brazil",

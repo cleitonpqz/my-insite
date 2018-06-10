@@ -2,10 +2,15 @@ import React, { Component } from 'react';
 import moment from 'moment';
 
 class Incident extends Component {
+    constructor(props) {
+        super(props);
+
+        this.handleClick = this.handleClick.bind(this);
+    }
     render() {
         return(
             <div className="card rounded-0 w-100">
-                <a href="" style={{textDecoration: 'none', color: 'inherit'}}>
+                <a href="" onClick={this.handleClick} style={{textDecoration: 'none', color: 'inherit'}}>
                     <div className="card-body">
                         <div className="float-right text-muted font-italic">
                             {moment(this.props.date).format('ll')}
@@ -17,6 +22,11 @@ class Incident extends Component {
                 </a>
             </div>
         );
+    }
+
+    handleClick(e) {
+        e.preventDefault();
+        this.props.whenItemClicked(this.props.id);
     }
 }
 

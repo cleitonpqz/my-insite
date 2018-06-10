@@ -1,17 +1,25 @@
-import React, { Component } from 'react';
+import React from 'react'
+import Reflux from 'reflux';
+import IncidentStore from '../stores/incident-store';
+import IncidentActions from '../actions';
 
-class IncidentView extends Component {
+class IncidentView extends Reflux.Component {
     constructor(props) {
         super(props);
         this.state = {
             reviewed: false
         };
+        this.store = IncidentStore;
 
         this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick(){
         this.setState({reviewed: !this.state.reviewed});
+    }
+
+    componentDidMount() {
+        IncidentActions.getIncident(1);
     }
 
     render() {
@@ -43,7 +51,7 @@ class IncidentView extends Component {
                                     </div>
                                     <div className="col-2">Low</div>
                                     <div className="col">
-                                        <h6 className="float-right">Incident #99999 (Manual)</h6>
+                                        <h6 className="float-right">Incident #{this.state.incident ? this.state.incident.id : ''} (Manual)</h6>
                                     </div>
                                 </div>
                             </div>
@@ -103,7 +111,7 @@ class IncidentView extends Component {
 
                                 <p className="form-check">
                                     <input className="form-check-input" type="checkbox" value="" id="nearMiss" />
-                                    <label className="form-check-label" for="nearMiss">
+                                    <label className="form-check-label" htmlFor="nearMiss">
                                         Near Miss
                                     </label>
                                 </p>
@@ -135,7 +143,7 @@ class IncidentView extends Component {
                                     <p className="card-text">No Properties in Proximity</p>
                                     <h3 className="card-text">Saint Lucia</h3>
                                 </div>
-                                <img className="card-img-bottom" src="https://maps.googleapis.com/maps/api/staticmap?center=40.714728,-73.998672&zoom=12&size=400x400&maptype=roadmap&key=AIzaSyBHqOsq3OIQoxKexk9zZsAxOG-gzuo5QGk" />
+                                <img alt="Map not created" className="card-img-bottom" src="https://maps.googleapis.com/maps/api/staticmap?center=40.714728,-73.998672&zoom=12&size=400x400&maptype=roadmap&key=AIzaSyBHqOsq3OIQoxKexk9zZsAxOG-gzuo5QGk" />
                             </div>
 
                             <table className="table table-borderless table-sm text-white">

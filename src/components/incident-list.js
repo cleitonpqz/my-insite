@@ -1,11 +1,31 @@
-import React, { Component } from 'react';
+import React from 'react'
+import Reflux from 'reflux';
+import IncidentStore from '../stores/incident-store';
+import IncidentActions from '../actions';
+
 import Incident from './incident';
 
-class IncidentList extends Component {
+class IncidentList extends Reflux.Component {
+    constructor(props) {
+        super(props);
+        this.state = {};
+        this.store = IncidentStore;
+
+        // this.loadItem = this.loadItem.bind(this);
+    }
+
+    componentDidMount() {
+        IncidentActions.getIncidents();
+    }
+
+    loadItem(id) {
+        IncidentActions.getIncident(id);
+    }
+
     render() {
-        var list = this.props.incidents.map(function(incidentProps){
-            return <Incident {...incidentProps} />
-        });
+        var list = this.state.incidentList.map(function(incidentProps){
+            return <Incident whenItemClicked={this.loadItem} key={incidentProps.id} {...incidentProps} />
+        }.bind(this));
 
         return(
             <div className="col-5" id="incident-list-container" >
