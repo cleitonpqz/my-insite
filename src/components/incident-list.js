@@ -8,8 +8,8 @@ class IncidentList extends Component {
         });
 
         return(
-            <div className="col-5" id="incident-list" >
-                <div className="row text-white pl-3 pt-1" style={{height: '10%'}} >
+            <div className="col-5" id="incident-list-container" >
+                <div className="row text-white pl-3 pt-1" >
                     <nav className="navbar navbar-expand-lg navbar-light flex-column flex-md-row bd-navbar w-100">
                         <ul className="navbar-nav flex-row ml-md-auto d-none d-md-flex text-white">
                             <li className="nav-item">
@@ -33,7 +33,7 @@ class IncidentList extends Component {
                         </ul>
                     </nav>
                 </div>
-                <div className="row bg-white">
+                <div className="row bg-white" id="incident-list" >
                     {list}
                 </div>
             </div>

@@ -17,7 +17,7 @@ class IncidentView extends Component {
     render() {
         return(
             <div className="col" id="incident-view" >
-                <div className="row text-white pl-3 pt-1" style={{height: '10%'}} >
+                <div className="row text-white pl-3 pt-1" >
                     <div className="form-group mb-0">
                         <span>Region</span>
                         <select className="form-control bg-secondary border-secondary text-white p-0" id="exampleFormControlSelect1">

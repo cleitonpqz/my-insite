@@ -4,7 +4,7 @@ import moment from 'moment';
 class Incident extends Component {
     render() {
         return(
-            <div className="card rounded-0">
+            <div className="card rounded-0 w-100">
                 <a href="" style={{textDecoration: 'none', color: 'inherit'}}>
                     <div className="card-body">
                         <div className="float-right text-muted font-italic">
