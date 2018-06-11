@@ -4,6 +4,7 @@ import moment from 'moment';
 
 import IncidentStore from '../stores/incident-store';
 import IncidentActions from '../actions';
+import NearestProperties from './nearest-properties';
 
 class IncidentView extends Reflux.Component {
     constructor(props) {
@@ -27,18 +28,6 @@ class IncidentView extends Reflux.Component {
         let changedIncident = {...this.state.incident};
         changedIncident.nearMiss = !this.state.incident.nearMiss;
         this.setState({incident: changedIncident});
-    }
-
-    renderNearesProperties() {
-        if(this.state.incident && this.state.incident.nearestProperties) {
-            this.state.incident.nearestProperties.map(function(data){
-                return <tr>
-                    <th scope="row">{data.property}</th>
-                    <td className="text-right">{data.miles} mi / {data.km} km</td>
-                </tr>
-            });
-        }
-        return null;
     }
 
     componentDidMount() {
@@ -186,12 +175,7 @@ class IncidentView extends Reflux.Component {
                                 </tbody>
                             </table>
 
-                            <div className="text-center w-100 text-white"><h6>Nearest Properties</h6></div>
-                            <table className="table table-borderless table-sm text-white">
-                                <tbody>
-                                    {this.renderNearesProperties}
-                                </tbody>
-                            </table>
+                            <NearestProperties nearestProperties={this.state.incident.nearestProperties} />
                         </div>
                     </div>
                 </div>
