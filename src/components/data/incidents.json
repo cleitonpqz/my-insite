@@ -2,52 +2,367 @@
     "data": [
         {
             "id": 1,
+            "reviewed": true,
+            "incidentNumber": "90801",
+            "categories": ["Industry", "Crime"],
+            "subCategories": ["Oil", "Plastic"],
+            "description": "Created",
+            "companyCommentary": "Created",
+            "target": "None selected.",
+            "actor": "None selected",
+            "actorDescription": "None selected.",
+            "attackType": "Airstrike",
+            "assets": "None selected",
+            "sectors": "None selected",
             "date": "2015-03-25T12:00:00Z",
             "type": "Crime",
+            "region": "1",
             "country": "Venezuela",
-            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
+            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "exxonMobilProperties": 1,
+            "exxonMobilHeadCount": null,
+            "threatLevel": "Not Rated",
+            "nearestProperties": [
+                {
+                    "property": "Caracas",
+                    "distance": {
+                        "miles": 214.92,
+                        "km": 345.88
+                    }
+                }
+            ],
+            "location": {
+                "city": "Caracas",
+                "longitude": "56.5461315",
+                "latitude": "13.4624986"
+            },
+            "precision": "None selected",
+            "impact": "None selected",
+            "nearMiss": true,
+            "systemInformation": {
+                "createdOn": "2015-03-25T12:00:00Z",
+                "createdBy": "Cleiton Queiroz",
+                "lastReviewedOn": null,
+                "lastReviewdBy": null,
+                "lastUpdatedOn": null,
+                "lastUpdatedBy": null
+            },
+            "temperature": "Low"
         },
         {
             "id": 2,
+            "reviewed": false,
+            "incidentNumber": "90802",
+            "categories": ["Unrest"],
+            "subCategories": [],
+            "description": "Created",
+            "companyCommentary": "Created",
+            "target": "None selected.",
+            "actor": "None selected",
+            "actorDescription": "None selected.",
+            "attackType": "Airstrike",
+            "assets": "None selected",
+            "sectors": "None selected",
             "date": "2018-03-25T12:00:00Z",
-            "type": "Unrest",
+            "type": "Crime",
+            "region": "1",
             "country": "Argentina",
-            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
+            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "exxonMobilProperties": 3,
+            "exxonMobilHeadCount": null,
+            "threatLevel": "Not Rated",
+            "nearestProperties": [
+                {
+                    "property": "Buenos Aires",
+                    "distance": {
+                        "miles": 214.92,
+                        "km": 345.88
+                    }
+                },
+                {
+                    "property": "Mendoza",
+                    "distance": {
+                        "miles": 214.92,
+                        "km": 345.88
+                    }
+                },
+                {
+                    "property": "Santa Fe",
+                    "distance": {
+                        "miles": 214.92,
+                        "km": 345.88
+                    }
+                }
+            ],
+            "location": {
+                "city": "Rosario",
+                "longitude": "56.5461315",
+                "latitude": "13.4624986"
+            },
+            "precision": "None selected",
+            "impact": "None selected",
+            "nearMiss": false,
+            "systemInformation": {
+                "createdOn": "2015-03-25T12:00:00Z",
+                "createdBy": "Cleiton Queiroz",
+                "lastReviewedOn": null,
+                "lastReviewdBy": null,
+                "lastUpdatedOn": "2015-03-25T12:00:00Z",
+                "lastUpdatedBy": "Fulano de Tal"
+            },
+            "temperature": "High"
         },
         {
             "id": 3,
-            "date": "2018-03-25T12:00:00Z",
-            "type": "Unrest",
-            "country": "Brazil",
-            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
+            "reviewed": true,
+            "incidentNumber": "90803",
+            "categories": ["Crime"],
+            "subCategories": [],
+            "description": "Created",
+            "companyCommentary": "Created",
+            "target": "None selected.",
+            "actor": "None selected",
+            "actorDescription": "None selected.",
+            "attackType": "Bomb",
+            "assets": "None selected",
+            "sectors": "None selected",
+            "date": "2019-03-25T12:00:00Z",
+            "type": "Crime",
+            "region": "1",
+            "country": "Mexico",
+            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "exxonMobilProperties": 2,
+            "exxonMobilHeadCount": null,
+            "threatLevel": "Not Rated",
+            "nearestProperties": [
+                {
+                    "property": "City of Mexico",
+                    "distance": {
+                        "miles": 214.92,
+                        "km": 345.88
+                    }
+                },
+                {
+                    "property": "Gudalajara",
+                    "distance": {
+                        "miles": 214.92,
+                        "km": 345.87
+                    }
+                }
+            ],
+            "location": {
+                "city": "City of Mexico",
+                "longitude": "57.5461315",
+                "latitude": "15.4624986"
+            },
+            "precision": "None selected",
+            "impact": "None selected",
+            "nearMiss": false,
+            "systemInformation": {
+                "createdOn": "2015-03-25T12:00:00Z",
+                "createdBy": "Cleiton Queiroz",
+                "lastReviewedOn": null,
+                "lastReviewdBy": null,
+                "lastUpdatedOn": null,
+                "lastUpdatedBy": null
+            },
+            "temperature": "Low"
         },
         {
             "id": 4,
-            "date": "2018-03-25T12:00:00Z",
-            "type": "Unrest",
-            "country": "Brazil",
-            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
+            "reviewed": true,
+            "incidentNumber": "90804",
+            "categories": ["Industry", "Crime"],
+            "subCategories": [],
+            "description": "Created",
+            "companyCommentary": "Created",
+            "target": "None selected.",
+            "actor": "None selected",
+            "actorDescription": "None selected.",
+            "attackType": "Airstrike",
+            "assets": "None selected",
+            "sectors": "None selected",
+            "date": "2015-03-25T12:00:00Z",
+            "type": "Crime",
+            "region": "3",
+            "country": "England",
+            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "exxonMobilProperties": 1,
+            "exxonMobilHeadCount": null,
+            "threatLevel": "Not Rated",
+            "nearestProperties": [
+                {
+                    "property": "London",
+                    "distance": {
+                        "miles": 214.92,
+                        "km": 345.88
+                    }
+                }
+            ],
+            "location": {
+                "city": "London",
+                "longitude": "56.5461315",
+                "latitude": "13.4624986"
+            },
+            "precision": "None selected",
+            "impact": "None selected",
+            "nearMiss": true,
+            "systemInformation": {
+                "createdOn": "2015-03-25T12:00:00Z",
+                "createdBy": "Cleiton Queiroz",
+                "lastReviewedOn": null,
+                "lastReviewdBy": null,
+                "lastUpdatedOn": null,
+                "lastUpdatedBy": null
+            },
+            "temperature": "Medium"
         },
         {
             "id": 5,
-            "date": "2018-03-25T12:00:00Z",
-            "type": "Unrest",
-            "country": "Brazil",
-            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
+            "reviewed": true,
+            "incidentNumber": "90805",
+            "categories": ["Industry", "Crime"],
+            "subCategories": [],
+            "description": "Created",
+            "companyCommentary": "Created",
+            "target": "None selected.",
+            "actor": "None selected",
+            "actorDescription": "None selected.",
+            "attackType": "Airstrike",
+            "assets": "None selected",
+            "sectors": "None selected",
+            "date": "2015-03-25T12:00:00Z",
+            "type": "Crime",
+            "region": "1",
+            "country": "Venezuela",
+            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "exxonMobilProperties": 4,
+            "exxonMobilHeadCount": null,
+            "threatLevel": "Not Rated",
+            "nearestProperties": [
+                {
+                    "property": "Caracas",
+                    "distance": {
+                        "miles": 214.92,
+                        "km": 345.88
+                    }
+                }
+            ],
+            "location": {
+                "city": "Curitiba",
+                "longitude": "56.5461315",
+                "latitude": "13.4624986"
+            },
+            "precision": "None selected",
+            "impact": "None selected",
+            "nearMiss": true,
+            "systemInformation": {
+                "createdOn": "2015-03-25T12:00:00Z",
+                "createdBy": "Cleiton Queiroz",
+                "lastReviewedOn": null,
+                "lastReviewdBy": null,
+                "lastUpdatedOn": null,
+                "lastUpdatedBy": null
+            },
+            "temperature": "Low"
         },
         {
             "id": 6,
-            "date": "2018-03-25T12:00:00Z",
-            "type": "Unrest",
-            "country": "Brazil",
-            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
+            "reviewed": true,
+            "incidentNumber": "90806",
+            "categories": ["Industry", "Crime"],
+            "subCategories": [],
+            "description": "Created",
+            "companyCommentary": "Created",
+            "target": "None selected.",
+            "actor": "None selected",
+            "actorDescription": "None selected.",
+            "attackType": "Airstrike",
+            "assets": "None selected",
+            "sectors": "None selected",
+            "date": "2015-03-25T12:00:00Z",
+            "type": "Crime",
+            "region": "1",
+            "country": "Venezuela",
+            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "exxonMobilProperties": 4,
+            "exxonMobilHeadCount": null,
+            "threatLevel": "Not Rated",
+            "nearestProperties": [
+                {
+                    "property": "Caracas",
+                    "distance": {
+                        "miles": 214.92,
+                        "km": 345.88
+                    }
+                }
+            ],
+            "location": {
+                "city": "Curitiba",
+                "longitude": "56.5461315",
+                "latitude": "13.4624986"
+            },
+            "precision": "None selected",
+            "impact": "None selected",
+            "nearMiss": true,
+            "systemInformation": {
+                "createdOn": "2015-03-25T12:00:00Z",
+                "createdBy": "Cleiton Queiroz",
+                "lastReviewedOn": null,
+                "lastReviewdBy": null,
+                "lastUpdatedOn": null,
+                "lastUpdatedBy": null
+            },
+            "temperature": "Low"
         },
         {
             "id": 7,
-            "date": "2018-03-25T12:00:00Z",
-            "type": "Unrest",
-            "country": "Brazil",
-            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content."
+            "reviewed": true,
+            "incidentNumber": "90807",
+            "categories": ["Industry", "Crime"],
+            "subCategories": [],
+            "description": "Created",
+            "companyCommentary": "Created",
+            "target": "None selected.",
+            "actor": "None selected",
+            "actorDescription": "None selected.",
+            "attackType": "Airstrike",
+            "assets": "None selected",
+            "sectors": "None selected",
+            "date": "2015-03-25T12:00:00Z",
+            "type": "Crime",
+            "region": "1",
+            "country": "Venezuela",
+            "summary": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "exxonMobilProperties": 4,
+            "exxonMobilHeadCount": null,
+            "threatLevel": "Not Rated",
+            "nearestProperties": [
+                {
+                    "property": "Caracas",
+                    "distance": {
+                        "miles": 214.92,
+                        "km": 345.88
+                    }
+                }
+            ],
+            "location": {
+                "city": "Curitiba",
+                "longitude": "56.5461315",
+                "latitude": "13.4624986"
+            },
+            "precision": "None selected",
+            "impact": "None selected",
+            "nearMiss": true,
+            "systemInformation": {
+                "createdOn": "2015-03-25T12:00:00Z",
+                "createdBy": "Cleiton Queiroz",
+                "lastReviewedOn": null,
+                "lastReviewdBy": null,
+                "lastUpdatedOn": null,
+                "lastUpdatedBy": null
+            },
+            "temperature": "Low"
         }
     ]
 }

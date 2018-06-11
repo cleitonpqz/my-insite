@@ -17,7 +17,7 @@ class IncidentStore extends Reflux.Store {
     }
 
     getIncident(id) {
-        var incident = _.find(incidents.data, o => { return o.id === id });
+        var incident = _.find(this.state.incidentList, o => { return o.id === id });
         this.setState({incident: incident});
     }
 }

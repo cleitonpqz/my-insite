@@ -15,7 +15,7 @@ class Incident extends Component {
                         <div className="float-right text-muted font-italic">
                             {moment(this.props.date).format('ll')}
                         </div>
-                        <p className="card-title">{this.props.type}</p>
+                        <p className="card-title">{this.props.categories ? this.props.categories.join(", ") : ''}</p>
                         <h6 className="card-title">{this.props.country}</h6>
                         <p className="card-text">{this.props.summary}</p>
                     </div>

@@ -10,8 +10,6 @@ class IncidentList extends Reflux.Component {
         super(props);
         this.state = {};
         this.store = IncidentStore;
-
-        // this.loadItem = this.loadItem.bind(this);
     }
 
     componentDidMount() {
